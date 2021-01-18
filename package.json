@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "start": "node app.js",
-   "start:dev" : "nodemon app.js"
+    "start:query" : "node query.mjs" 
   },
   "keywords": [],
   "author": "Baraka Larbi",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "@arcgis/core": "^4.18.1",
+    "abort-controller": "^3.0.0",
+    "cross-fetch": "^3.0.6"
   }
 }
